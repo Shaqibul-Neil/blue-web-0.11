@@ -1,0 +1,66 @@
+*{
+	margin:4px;
+	background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%) fixed;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+nav.navbar{
+	padding:15px;
+}
+div.navdiv{
+	display: flex;
+	justify-content: space-between;
+}
+div.logo a{
+	font-size: 30px;
+	color: #1261a0;
+	font-weight: 600;
+}
+img.blue{
+	-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.4));
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+div.logo span{
+	color: #61a012;
+	font-size: 18px;
+	position: relative;
+	animation: anima 5s infinite;
+	animation-delay: 2s;
+  	animation-direction: alternate;
+}
+@keyframes anima{
+	from{left: 0px}
+	to{ left: 200px}
+}
+div.transform{
+	text-align: center;
+	font-size: 12px;
+	color: #a01261;
+}	
+div.image{
+	width:25%;
+	float: right;
+	padding: 5px;
+	margin: 10px;
+	border: 3px solid #1261a0;
+	border-radius: 10px;
+	box-sizing: content-box;
+	width: 300px;
+	box-shadow: 5px 5px 5px #1261a0, 10px 10px 5px #a01261, 15px 15px 5px #61a012 ;
+}
+div.founder{
+	font-size: 25px;
+	color:#1261a0;
+}
+figcaption{
+	font-size: 18px;
+	color: black;
+}
+div#para1{
+	font-size: 18px;
+	color: black;
+}
